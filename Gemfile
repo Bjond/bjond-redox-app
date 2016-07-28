@@ -2,21 +2,23 @@ source 'https://rubygems.org'
 
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.3'
-gem 'pg'
+gem 'rails', '~> 4.2', '>= 4.2.4'
+gem 'pg', '~> 0.18.2'
 gem 'sass-rails', '~> 5.0'
 gem 'uglifier', '>= 1.3.0'
 
-gem 'jquery-rails'
+gem 'jquery-rails', '~> 4.1', '>= 4.1.1'
 # Turbolinks makes following links in your web application faster. Read more: https://github.com/rails/turbolinks
 gem 'turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'sdoc', '~> 0.4.0', group: :doc
 
-gem 'better_errors'
-gem 'binding_of_caller'
-gem 'meta_request'
-gem 'awesome_print'
+gem 'better_errors', '~> 2.1', '>= 2.1.1'
+gem 'binding_of_caller', '~> 0.7.2'
+gem 'meta_request', '~> 0.3.4'
+gem 'awesome_print', '~> 1.6', '>= 1.6.1'
+
+gem 'bjond-api', :path => '../bjond-integration-gem/'
 
 # Use Unicorn as the app server
 # gem 'unicorn'
