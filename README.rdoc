@@ -1,3 +1,15 @@
 = Bjond Redox App
 
 This will serve as the Bjond integration app with the Redox API.
+
+
+== Development
+
+- Run
+To install client side dependencies, run - 
+
+    bower install
+
+To create default config file - 
+
+    rails g initializer
