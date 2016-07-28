@@ -15,5 +15,6 @@
 //= require turbolinks
 //= require angular
 //= require_tree .
+//= require bjond_api
 
-angular.module('bjond-app',[]);
+angular.module('bjond-app',['bjond-api']);
