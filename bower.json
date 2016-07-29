@@ -1,17 +1,15 @@
 {
   "name": "bjond-app",
-  "authors": ["Blake Rego blake.rego@bjondinc.com"],
+  "authors": [
+    "Blake Rego blake.rego@bjondinc.com"
+  ],
   "description": "Bjond app",
   "dependencies": {
     "angular-mocks": "1.3.6",
     "jquery": "~2.x",
     "jsbn-angular": "1.4.0",
     "lodash": "3.X - 4.X",
-    "angular-moment": "0.9.0"
-  },
-  "resolutions": {
-    "angular": "1.3.6",
-    "lodash": "3.X - 4.X"
+    "angular": "1.3.6"
   },
   "devDependencies": {}
 }
