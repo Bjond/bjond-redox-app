@@ -22,7 +22,6 @@ module BjondPokitdokApp
 
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
-    config.paths['db/migrate'] << BjondApi::Engine.paths['db/migrate'].existent
     config.assets.paths << Rails.root.join('vendor', 'assets', 'bower_components')
   end
 end
