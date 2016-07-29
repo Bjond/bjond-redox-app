@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  post 'patient_admin/arrival'
-
+  
   root 'bjond_registrations#index'
+
+  post '/redox/patient_admin/arrival' => 'patient_admin#arrival'
+
 end
