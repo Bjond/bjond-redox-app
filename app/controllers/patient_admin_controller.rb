@@ -9,4 +9,14 @@ class PatientAdminController < ApplicationController
       :status => 'OK'
     }
   end
+
+  def verify_arrival
+    if request.headers['verification-token'] == ENV['REDOX_VERIFICATION_TOKEN']
+      render :text => params[:challenge]
+    else
+      render :json => {
+        :data => "Failed to verify token."
+      }
+    end
+  end
 end
