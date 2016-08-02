@@ -52,8 +52,6 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
   app_def.name         = 'Bjond Redox App'
   app_def.description  = 'Testing API functionality'
   app_def.iconURL      = ''
-  app_def.configURL    = "http://#{Rails.application.config.action_controller.default_url_options ? Rails.application.config.action_controller.default_url_options[:host] : nil || `hostname`}/bjond-app/services"
-  app_def.rootEndpoint = "http://#{Rails.application.config.action_controller.default_url_options ? Rails.application.config.action_controller.default_url_options[:host] : nil || `hostname`}/bjond-app/services"
   app_def.integrationEvent = [
     BjondApi::BjondEvent.new.tap do |e|
       e.id = '3288feb8-7c20-490e-98a1-a86c9c17da87'
