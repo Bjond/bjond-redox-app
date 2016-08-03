@@ -65,7 +65,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.jsonKey = 'visitNumber'
           f.name = 'Vist Number'
           f.description = 'Vist Number'
-          f.fieldType = 'Vist Number'
+          f.fieldType = 'String'
           f.id = e.id
         end
       ]
