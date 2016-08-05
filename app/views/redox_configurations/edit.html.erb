@@ -1,0 +1,35 @@
+<h1>Editing Redox Configuration</h1>
+
+
+<%= form_for(@redox_configuration) do |f| %>
+  <% if @redox_configuration.errors.any? %>
+    <div id="error_explanation">
+      <h2><%= pluralize(@redox_configuration.errors.count, "error") %> prohibited this redox_configuration from being saved:</h2>
+
+      <ul>
+      <% @redox_configuration.errors.full_messages.each do |message| %>
+        <li><%= message %></li>
+      <% end %>
+      </ul>
+    </div>
+  <% end %>
+
+  <div class="field">
+    <%= f.label :secret %><br>
+    <%= f.text_field :secret %>
+  </div>
+  <div class="field">
+    API Key
+    <%= f.text_field :api_key %>
+  </div>
+  <div class="field">
+    Bjond Person ID
+    <%= f.text_field :sample_person_id %>
+  </div>
+
+  <div class="actions">
+    <%= f.submit %>
+  </div>
+<% end %>
+
+<%= link_to 'Show', @redox_configuration %> 

@@ -18,7 +18,7 @@ gem 'binding_of_caller', '~> 0.7.2'
 gem 'meta_request', '~> 0.3.4'
 gem 'awesome_print', '~> 1.6', '>= 1.6.1'
 gem 'pry_debug'
-gem 'bjond-api', '~> 0.1.2'
+gem 'bjond-api', '~> 0.1.5'
 
 # Use Unicorn as the app server
 # gem 'unicorn'

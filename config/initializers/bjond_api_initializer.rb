@@ -18,6 +18,11 @@ config.group_configuration_schema = {
       :type => 'string',
       :description => 'Redox Source Secret',
       :title => 'Redox Source Secret'
+    },
+    :sample_person_id => {
+      :type => 'string',
+      :description => 'Bjond Person ID. This can be any person ID in the tenant.',
+      :title => 'Bjond Patient ID'
     }
   },
   :required => ['sample_field']
@@ -27,9 +32,10 @@ config.encryption_key_name = 'REDOX_ENCRYPTION_KEY'
 
 def config.configure_group(result, bjond_registration)
   redox_config = RedoxConfiguration.find_or_initialize_by(:bjond_registration_id => bjond_registration.id)
-  if (redox_config.api_key != result['api_key'] || redox_config.secret != result['secret'])
+  if (redox_config.api_key != result['api_key'] || redox_config.secret != result['secret'] || redox_config.sample_person_id != result['sample_person_id'])
     redox_config.api_key = result['api_key'] 
     redox_config.secret = result['secret']
+    redox_config.sample_person_id = result['sample_person_id']
     redox_config.save
   end
   return redox_config
@@ -41,7 +47,7 @@ def config.get_group_configuration(bjond_registration)
     puts 'No configuration has been saved yet.'
     return {}
   else
-    return { :api_key => redox_config.api_key, :secret => redox_config.secret }
+    return redox_config
   end
 end
 
@@ -51,7 +57,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
   app_def.author       = 'Bjond, Inc.'
   app_def.name         = 'Bjond Redox App'
   app_def.description  = 'Testing API functionality'
-  app_def.iconURL      = ''
+  app_def.iconURL      = 'http://cdn.slidesharecdn.com/profile-photo-RedoxEngine-96x96.jpg?cb=1468963688'
   app_def.integrationEvent = [
     BjondApi::BjondEvent.new.tap do |e|
       e.id = '3288feb8-7c20-490e-98a1-a86c9c17da87'
@@ -67,6 +73,14 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.description = 'Vist Number'
           f.fieldType = 'String'
           f.id = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '2091de2e-dcf9-461a-b66c-ea4c01081f9c'
+          f.jsonKey = 'bjondPersonId'
+          f.name = 'Patient'
+          f.description = 'The patient identifier'
+          f.fieldType = 'Person'
+          f.event = e.id
         end
       ]
     end

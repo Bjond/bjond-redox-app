@@ -1,0 +1,25 @@
+<div class="redox-configurations">
+  <p>
+    <strong>Redox Secret:</strong>
+    <%= @redox_configuration.secret %>
+  </p>
+
+  <p>
+    <strong>API Key:</strong>
+    <%= @redox_configuration.api_key %>
+  </p>
+
+  <% if @redox_configuration.sample_person_id %>
+    <p>
+      <strong>Bjond Person ID:</strong>
+      <%= @redox_configuration.sample_person_id %>
+    </p>
+  <% else %>
+    <p class="not-found">
+      Please log in to the Bjond server and select a person ID for this tenant. Once you find this information, <%= link_to 'add it here', edit_redox_configuration_path(@redox_configuration) %>.
+    </p>
+  <% end %>
+
+  <%= link_to 'Edit', edit_redox_configuration_path(@redox_configuration) %> | 
+  <%= link_to 'Back to Registrations Page', bjond_registrations_path %>
+</div>
