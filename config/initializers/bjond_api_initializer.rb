@@ -45,7 +45,7 @@ def config.get_group_configuration(bjond_registration)
   redox_config = RedoxConfiguration.find_by_bjond_registration_id(bjond_registration.id)
   if (redox_config.nil?)
     puts 'No configuration has been saved yet.'
-    return {}
+    return {:secret => '', :sample_person_id => '', :api_key => ''}
   else
     return redox_config
   end
