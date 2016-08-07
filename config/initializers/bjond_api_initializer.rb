@@ -62,8 +62,8 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
     BjondApi::BjondEvent.new.tap do |e|
       e.id = '3288feb8-7c20-490e-98a1-a86c9c17da87'
       e.jsonKey = 'admissionArrival'
-      e.name = 'Admission Arrival'
-      e.description = 'An Arrival message is generated when a patient shows up for their visit or when a patient is admitted to the hospital.'
+      e.name = 'Admission / Discharge'
+      e.description = 'An Arrival / discharge is generated when a patient shows up for their visit or when a patient is admitted to or discharged from the hospital.'
       e.serviceId = app_def.id
       e.fields = [
         BjondApi::BjondField.new.tap do |f|
@@ -80,6 +80,34 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.name = 'Patient'
           f.description = 'The patient identifier'
           f.fieldType = 'Person'
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = 'b23379b0-fc7e-4f5d-964b-f41b574d285a'
+          f.jsonKey = 'eventType'
+          f.name = 'Event Type'
+          f.description = 'Either an admission or discharge event.'
+          f.fieldType = 'MultipleChoice'
+          f.options = [
+            'Admission',
+            'Discharge'
+          ]
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '3728580f-855a-435d-a7d5-1cb956745c14'
+          f.jsonKey = 'diagnosisCode'
+          f.name = 'Diagnosis Code'
+          f.description = 'This is the code relating to the diagnosis for the patient.'
+          f.fieldType = 'String'
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '81dac31a-ea79-49c0-9e2c-cf19841d6559'
+          f.jsonKey = 'facility'
+          f.name = 'Facility'
+          f.description = 'Name of the facility.'
+          f.fieldType = 'String'
           f.event = e.id
         end
       ]
