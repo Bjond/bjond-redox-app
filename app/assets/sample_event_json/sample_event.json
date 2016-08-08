@@ -1,0 +1,270 @@
+{
+  "Meta": {
+    "DataModel": "PatientAdmin",
+    "EventType": "Discharge",
+    "EventDateTime": "2016-08-05T19:19:23.710Z",
+    "Test": true,
+    "Source": {
+      "ID": "7ce6f387-c33c-417d-8682-81e83628cbd9",
+      "Name": "Redox Dev Tools"
+    },
+    "Message": {
+      "ID": 5565
+    },
+    "Transmission": {
+      "ID": 12414
+    },
+    "FacilityCode": null
+  },
+  "Patient": {
+    "Identifiers": [
+      {
+        "ID": "0000000003",
+        "IDType": "MR"
+      },
+      {
+        "ID": "e3fedf48-c8bf-4728-845f-cb810001b571",
+        "IDType": "REDOX"
+      }
+    ],
+    "Demographics": {
+      "FirstName": "Walter",
+      "LastName": "Carthwright",
+      "DOB": "1945-03-04",
+      "SSN": "303-03-0003",
+      "Sex": "Male",
+      "Race": "African American",
+      "MaritalStatus": "Widowed",
+      "PhoneNumber": {
+        "Home": "808-867-5310",
+        "Office": null,
+        "Mobile": null
+      },
+      "EmailAddresses": [
+        "wc1945@test.net"
+      ],
+      "Address": {
+        "StreetAddress": "648 Ethan Terrace",
+        "City": "Agoura Hills",
+        "State": "CA",
+        "ZIP": "91301",
+        "County": "Los Angelas",
+        "Country": "US"
+      }
+    },
+    "Notes": [
+      
+    ],
+    "Diagnoses": [
+      {
+        "Code": "K59.0",
+        "Codeset": "ICD-10",
+        "Name": "Constipation",
+        "Type": null
+      }
+    ],
+    "PCP": {
+      "NPI": 2434534567,
+      "FirstName": "Sharon",
+      "LastName": "Chalk",
+      "Credentials": [
+        "MD",
+        "PhD"
+      ],
+      "Address": {
+        "StreetAddress": "312 Maple Dr. Suite 400",
+        "City": "Verona",
+        "State": "WI",
+        "ZIP": "53593",
+        "County": "Dane",
+        "Country": "USA"
+      },
+      "Location": {
+        "Type": null,
+        "Facility": null,
+        "Department": null
+      },
+      "PhoneNumber": "+16085559999"
+    }
+  },
+  "Visit": {
+    "VisitNumber": "1234",
+    "PatientClass": "Inpatient",
+    "VisitDateTime": "2016-08-04T21:11:43.920Z",
+    "DischargeDateTime": "2016-08-05T21:11:43.920Z",
+    "Duration": null,
+    "Reason": "Discharged to home",
+    "Instructions": null,
+    "Balance": null,
+    "AttendingProvider": {
+      "ID": 2434534567,
+      "IDType": "NPI",
+      "FirstName": "Sharon",
+      "LastName": "Chalk",
+      "Credentials": [
+        "MD",
+        "PhD"
+      ],
+      "Address": {
+        "StreetAddress": "312 Maple Dr. Suite 400",
+        "City": "Verona",
+        "State": "WI",
+        "ZIP": "53593",
+        "County": "Dane",
+        "Country": "USA"
+      },
+      "Location": {
+        "Type": null,
+        "Facility": null,
+        "Department": null
+      },
+      "PhoneNumber": {
+        "Office": null
+      }
+    },
+    "ConsultingProvider": {
+      "ID": 4356789876,
+      "IDType": "NPI",
+      "FirstName": "Pat",
+      "LastName": "Granite",
+      "Credentials": [
+        "MD"
+      ],
+      "Address": {
+        "StreetAddress": "123 Main St.",
+        "City": "Madison",
+        "State": "WI",
+        "ZIP": "53703",
+        "County": "Dane",
+        "Country": "USA"
+      },
+      "Location": {
+        "Type": null,
+        "Facility": null,
+        "Department": null
+      },
+      "PhoneNumber": {
+        "Office": null
+      }
+    },
+    "ReferringProvider": {
+      "ID": 42364647575,
+      "IDType": "NPI",
+      "FirstName": "John",
+      "LastName": "Slate",
+      "Credentials": [
+        "DO"
+      ],
+      "Address": {
+        "StreetAddress": "500 First St.",
+        "City": "Clayton",
+        "State": "MO",
+        "ZIP": "63105",
+        "County": "Saint Louis",
+        "Country": "USA"
+      },
+      "Location": {
+        "Type": null,
+        "Facility": null,
+        "Department": null
+      },
+      "PhoneNumber": {
+        "Office": null
+      }
+    },
+    "Location": {
+      "Type": "Inpatient",
+      "Facility": "RES General Hospital",
+      "Department": "3N",
+      "Room": "136",
+      "Bed": "B",
+      "Address": {
+        "StreetAddress": "9509 Integration Ln",
+        "City": "Madison",
+        "State": "WI",
+        "ZIP": "53719",
+        "County": "Dane",
+        "Country": "US"
+      }
+    },
+    "Guarantor": {
+      "Number": "234984",
+      "FirstName": "Walter",
+      "LastName": "Carthwright",
+      "Spouse": {
+        "FirstName": null,
+        "LastName": null
+      },
+      "Address": {
+        "StreetAddress": "648 Ethan Terrace",
+        "City": "Agoura Hills",
+        "State": "CA",
+        "ZIP": "91301",
+        "County": null,
+        "Country": "USA"
+      },
+      "PhoneNumber": {
+        "Home": null,
+        "Business": null
+      },
+      "Type": "Individual",
+      "RelationToPatient": "Self",
+      "Employer": {
+        "Name": null,
+        "Address": {
+          "StreetAddress": null,
+          "City": null,
+          "State": null,
+          "ZIP": null,
+          "County": null,
+          "Country": null
+        },
+        "PhoneNumber": null
+      }
+    },
+    "Insurances": [
+      {
+        "Plan": {
+          "ID": "S5921-376-0",
+          "IDType": null,
+          "Name": "AARP MedicareRx Saver Plus (PDP) (S5921-376-0)"
+        },
+        "Company": {
+          "ID": "14214",
+          "IDType": null,
+          "Name": "UnitedHealthcare",
+          "Address": {
+            "StreetAddress": "P.O. Box 29300",
+            "City": "Hot Springs",
+            "State": "AR",
+            "ZIP": "71903",
+            "County": "Garland",
+            "Country": "USA"
+          },
+          "PhoneNumber": null
+        },
+        "GroupNumber": null,
+        "GroupName": null,
+        "EffectiveDate": "2015-01-01",
+        "ExpirationDate": "2020-12-31",
+        "PolicyNumber": "W2158 24294-01",
+        "AgreementType": null,
+        "CoverageType": null,
+        "Insured": {
+          "LastName": null,
+          "FirstName": null,
+          "Relationship": null,
+          "DOB": null,
+          "Address": {
+            "StreetAddress": null,
+            "City": null,
+            "State": null,
+            "ZIP": null,
+            "County": null,
+            "Country": null
+          }
+        }
+      }
+    ]
+  }
+}
