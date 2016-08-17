@@ -104,13 +104,13 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
         end,
         BjondApi::BjondField.new.tap do |f|
           f.id = '51ee97dd-d6ae-44c2-aa83-b761029b818c'
-          f.jsonKey = 'sex'
+          f.jsonKey = 'gender'
           f.name = 'Sex'
           f.description = 'Sex of the patient.'
           f.fieldType = 'MultipleChoice'
           f.options = [
-            'Male',
-            'Female'
+            'M',
+            'F'
           ]
           f.event = e.id
         end,
@@ -134,7 +134,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.id = '847e24fe-fecd-47a8-af00-10b677ca858d'
           f.jsonKey = 'attendingProvider'
           f.name = 'Attending Provider'
-          f.description = 'The date and time of admission.'
+          f.description = 'The attending provider person.'
           f.fieldType = 'Person'
           f.event = e.id
         end,

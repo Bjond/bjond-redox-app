@@ -22,6 +22,8 @@ class PatientAdminController < ApplicationController
         ## TODO: Need to handle array field (instead of using first result).
         diagnosis_code = diagnoses.first["Code"]
       end
+
+      sex = patient_info["Sex"]
     end
     if (!visit_info.nil?)
       location = visit_info["Location"]
@@ -38,7 +40,9 @@ class PatientAdminController < ApplicationController
     puts event_data
     BjondRegistration.all.each do |r|
       rdxc = RedoxConfiguration.find_by_bjond_registration_id(r.id)
-      event_data[:bjondPersonId] = rdxc.sample_person_id
+      event_data[:bjondPersonId]     = rdxc.sample_person_id
+      event_data[:attendingProvider] = rdxc.sample_person_id
+      event_data[:gender] = sex == 'Male' ? 'M' : 'F'
       puts event_data.to_json
       BjondApi::fire_event(r, event_data.to_json, config.active_definition.integrationEvent.first.id)
     end
