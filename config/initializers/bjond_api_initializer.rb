@@ -62,8 +62,8 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
     BjondApi::BjondEvent.new.tap do |e|
       e.id = '3288feb8-7c20-490e-98a1-a86c9c17da87'
       e.jsonKey = 'admissionArrival'
-      e.name = 'Admission / Discharge'
-      e.description = 'An Arrival / discharge is generated when a patient shows up for their visit or when a patient is admitted to or discharged from the hospital.'
+      e.name = 'Redox Patient Admin (HL7)'
+      e.description = 'An Arrival message is generated when a patient shows up for their visit or when a patient is admitted to the hospital.'
       e.serviceId = app_def.id
       e.fields = [
         BjondApi::BjondField.new.tap do |f|
@@ -96,12 +96,49 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
         end,
         BjondApi::BjondField.new.tap do |f|
           f.id = '81dac31a-ea79-49c0-9e2c-cf19841d6559'
-          f.jsonKey = 'facility'
-          f.name = 'Facility'
+          f.jsonKey = 'servicingFacility'
+          f.name = 'Servicing Facility'
           f.description = 'Name of the facility.'
           f.fieldType = 'String'
           f.event = e.id
-        end
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '51ee97dd-d6ae-44c2-aa83-b761029b818c'
+          f.jsonKey = 'sex'
+          f.name = 'Sex'
+          f.description = 'Sex of the patient.'
+          f.fieldType = 'MultipleChoice'
+          f.options = [
+            'Male',
+            'Female'
+          ]
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = 'ef9be5b0-0c52-4eca-92d4-1f034836858e'
+          f.jsonKey = 'admissionTime'
+          f.name = 'Admission Time'
+          f.description = 'The date and time of admission.'
+          f.fieldType = 'DateTime'
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = 'f03b8671-d410-4cee-a157-aeadff1753ac'
+          f.jsonKey = 'dischargeTime'
+          f.name = 'Discharge Time'
+          f.description = 'The date and time of discharge.'
+          f.fieldType = 'DateTime'
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '847e24fe-fecd-47a8-af00-10b677ca858d'
+          f.jsonKey = 'attendingProvider'
+          f.name = 'Attending Provider'
+          f.description = 'The date and time of admission.'
+          f.fieldType = 'Person'
+          f.event = e.id
+        end,
+        
       ]
     end
   ]
