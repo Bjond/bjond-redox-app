@@ -35,14 +35,15 @@ class PatientAdminController < ApplicationController
       # :visitNumber => visit_number,
       :eventType => event_type,
       :diagnosisCode => diagnosis_code,
-      :facility => facility
+      :servicingFacility => facility,
+      :gender => sex == 'Male' ? 'M' : 'F',
+      
     }
     puts event_data
     BjondRegistration.all.each do |r|
       rdxc = RedoxConfiguration.find_by_bjond_registration_id(r.id)
       event_data[:bjondPersonId]     = rdxc.sample_person_id
       event_data[:attendingProvider] = rdxc.sample_person_id
-      event_data[:gender] = sex == 'Male' ? 'M' : 'F'
       puts event_data.to_json
       BjondApi::fire_event(r, event_data.to_json, config.active_definition.integrationEvent.first.id)
     end
