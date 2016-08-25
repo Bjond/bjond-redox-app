@@ -34,16 +34,16 @@ class PatientAdminController < ApplicationController
     biological_sex = 'U'
     if (sex == 'Male')
       biological_sex = 'M'
-    else if (sex == 'Female')
+    elsif (sex == 'Female')
       biological_sex = 'F'
-    else if (sex == 'Other')
+    elsif (sex == 'Other')
       biological_sex = 'O'
     end
     event_data = {
       :eventType => event_type,
       :diagnosesCodes => diagnoses_codes,
       :servicingFacility => facility,
-      :sex => biological_sex
+      :sex => biological_sex,
       :dischargeDisposition => reason
     }
     puts event_data
