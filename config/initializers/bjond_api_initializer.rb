@@ -88,11 +88,24 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
         end,
         BjondApi::BjondField.new.tap do |f|
           f.id = '3728580f-855a-435d-a7d5-1cb956745c14'
-          f.jsonKey = 'diagnosisCode'
-          f.name = 'Diagnosis Code'
+          f.jsonKey = 'diagnosesCodes'
+          f.name = 'Diagnoses Codes'
           f.description = 'This is the code relating to the diagnosis for the patient.'
-          f.fieldType = 'String'
+          f.fieldType = 'OptionsArray'
           f.event = e.id
+          f.options = [
+            'M16.11',
+            'E88.49',
+            'I50.21',
+            '52427-0440',
+            'N39.0',
+            'L20.84',
+            'I10',
+            'Z72.0',
+            'K59.0',
+            'M54.0',
+            'J45.909'
+          ]
         end,
         BjondApi::BjondField.new.tap do |f|
           f.id = '81dac31a-ea79-49c0-9e2c-cf19841d6559'
@@ -104,13 +117,15 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
         end,
         BjondApi::BjondField.new.tap do |f|
           f.id = '51ee97dd-d6ae-44c2-aa83-b761029b818c'
-          f.jsonKey = 'gender'
+          f.jsonKey = 'sex'
           f.name = 'Sex'
-          f.description = 'Sex of the patient.'
+          f.description = 'Biological sex of the patient.'
           f.fieldType = 'MultipleChoice'
           f.options = [
             'M',
-            'F'
+            'F',
+            'O',
+            'U'
           ]
           f.event = e.id
         end,
@@ -138,7 +153,14 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.fieldType = 'Person'
           f.event = e.id
         end,
-        
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '534dbe2f-c0d1-451b-ab88-aa3cc47f416c'
+          f.jsonKey = 'dischargeDisposition'
+          f.name = 'Discharge Disposition / Reason'
+          f.description = 'Reason for visit.'
+          f.fieldType = 'String'
+          f.event = e.id
+        end
       ]
     end
   ]

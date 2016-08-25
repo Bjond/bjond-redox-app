@@ -12,32 +12,39 @@ class PatientAdminController < ApplicationController
     meta_info = parsed["Meta"]
     visit_info = parsed["Visit"]
     patient_info = parsed["Patient"]
-    # visit_number = visit_info["VisitNumber"]
     if (!meta_info.nil?)
       event_type = meta_info["EventType"]
     end
     if (!patient_info.nil?)
       diagnoses = patient_info["Diagnoses"]
       if (!diagnoses.nil? && diagnoses.count > 0)
-        ## TODO: Need to handle array field (instead of using first result).
-        diagnosis_code = diagnoses.first["Code"]
+        diagnoses_codes = diagnoses.map{ |d| d['Code'] }
       end
 
       sex = patient_info["Sex"]
     end
     if (!visit_info.nil?)
+      reason = visit_info["Reason"]
       location = visit_info["Location"]
       if (!location.nil?)
         facility = location["Facility"]
       end
     end
+
+    biological_sex = 'U'
+    if (sex == 'Male')
+      biological_sex = 'M'
+    else if (sex == 'Female')
+      biological_sex = 'F'
+    else if (sex == 'Other')
+      biological_sex = 'O'
+    end
     event_data = {
-      # :visitNumber => visit_number,
       :eventType => event_type,
-      :diagnosisCode => diagnosis_code,
+      :diagnosesCodes => diagnoses_codes,
       :servicingFacility => facility,
-      :gender => sex == 'Male' ? 'M' : 'F',
-      
+      :sex => biological_sex
+      :dischargeDisposition => reason
     }
     puts event_data
     BjondRegistration.all.each do |r|
