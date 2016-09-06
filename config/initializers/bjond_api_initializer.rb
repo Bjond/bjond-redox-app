@@ -91,21 +91,9 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.jsonKey = 'diagnosesCodes'
           f.name = 'Diagnoses Codes'
           f.description = 'This is the code relating to the diagnosis for the patient.'
-          f.fieldType = 'OptionsArray'
+          f.fieldType = 'MedicalCodeArray'
+          f.codeType = 'ICD10'
           f.event = e.id
-          f.options = [
-            'M16.11',
-            'E88.49',
-            'I50.21',
-            '52427-0440',
-            'N39.0',
-            'L20.84',
-            'I10',
-            'Z72.0',
-            'K59.0',
-            'M54.0',
-            'J45.909'
-          ]
         end,
         BjondApi::BjondField.new.tap do |f|
           f.id = '81dac31a-ea79-49c0-9e2c-cf19841d6559'
