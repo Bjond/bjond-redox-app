@@ -48,7 +48,7 @@ GEM
     bindata (2.3.3)
     binding_of_caller (0.7.2)
       debug_inspector (>= 0.0.1)
-    bjond-api (0.3.5)
+    bjond-api (0.3.6)
       attr_encrypted (~> 3.0, >= 3.0.3)
       faraday (~> 0.9.2)
       rails (~> 4.2, >= 4.2.4)
@@ -181,7 +181,7 @@ DEPENDENCIES
   awesome_print (~> 1.6, >= 1.6.1)
   better_errors (~> 2.1, >= 2.1.1)
   binding_of_caller (~> 0.7.2)
-  bjond-api (~> 0.3.5)
+  bjond-api (~> 0.3.6)
   byebug
   jbuilder (~> 2.0)
   jquery-rails (~> 4.1, >= 4.1.1)
