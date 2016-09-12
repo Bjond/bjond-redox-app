@@ -49,14 +49,21 @@ class PatientAdminController < ApplicationController
     puts event_data
 
     # Make web requests to Bjond on a separate thread
-    Thread.new do 
-      BjondRegistration.all.each do |r|
-        ap r
-        rdxc = RedoxConfiguration.find_by_bjond_registration_id(r.id)
-        event_data[:bjondPersonId]     = rdxc.sample_person_id
-        event_data[:attendingProvider] = rdxc.sample_person_id
-        puts event_data.to_json
-        BjondApi::fire_event(r, event_data.to_json, config.active_definition.integrationEvent.first.id)
+    BjondRegistration.all.each do |r|
+      ap r
+      rdxc = RedoxConfiguration.find_by_bjond_registration_id(r.id)
+      event_data[:bjondPersonId]     = rdxc.sample_person_id
+      event_data[:attendingProvider] = rdxc.sample_person_id
+      puts event_data.to_json
+      puts "firing now!"
+      Thread.new do 
+        begin
+          BjondApi::fire_event(r, event_data.to_json, config.active_definition.integrationEvent.first.id)
+        rescue StandardError => bang
+          puts "Encountered an error when firing event associated with BjondRegistration with id: "
+          puts r.id
+          puts bang
+        end
       end
     end
     render :json => {
