@@ -81,7 +81,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.description = 'Either an admission or discharge event.'
           f.fieldType = 'MultipleChoice'
           f.options = [
-            'Admission',
+            'Arrival',
             'Discharge'
           ]
           f.event = e.id
@@ -110,10 +110,10 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.description = 'Biological sex of the patient.'
           f.fieldType = 'MultipleChoice'
           f.options = [
-            'M',
-            'F',
-            'O',
-            'U'
+            'Male',
+            'Female',
+            'Other',
+            'Unknown'
           ]
           f.event = e.id
         end,

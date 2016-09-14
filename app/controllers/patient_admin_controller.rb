@@ -31,13 +31,9 @@ class PatientAdminController < ApplicationController
       end
     end
 
-    biological_sex = 'U'
-    if (sex == 'Male')
-      biological_sex = 'M'
-    elsif (sex == 'Female')
-      biological_sex = 'F'
-    elsif (sex == 'Other')
-      biological_sex = 'O'
+    biological_sex = 'Unknown'
+    if (sex == 'Male' || sex == 'Female' || sex == 'Other')
+      biological_sex = sex
     end
     event_data = {
       :eventType => event_type,
