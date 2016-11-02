@@ -5,11 +5,23 @@ This will serve as the Bjond integration app with the Redox API.
 
 == Development
 
-- Run
-To install client side dependencies, run - 
+- Use RVM (https://rvm.io/) to deal with gemsets / ruby versions. (We've had issues with RBEnv; Use at your own risk). If you need to install rvm, use this command:
+
+    \curl -sSL https://get.rvm.io | bash -s stable --rails
+
+- Create an RVM gemset. This project currently uses ruby 2.2.2, so the command would be. (ruby version listed in .ruby-version and gemset name listed in .ruby-gemset) - 
+
+    rvm ruby-2.2.2 do rvm gemset create redox-gems
+
+- Create and migrate the database using rake
+
+    rake db:create
+    rake db:migrate
+
+- Install the client side dependencies using bower - 
 
     bower install
 
-To create default config file - 
+- Run the rails app -
 
-    rails g initializer
+    bin/rails server -p 3001
