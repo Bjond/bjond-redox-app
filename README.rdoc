@@ -13,6 +13,10 @@ This will serve as the Bjond integration app with the Redox API.
 
     rvm ruby-2.2.2 do rvm gemset create redox-gems
 
+- Install necessary dependencies - 
+
+    bundle install
+
 - Create and migrate the database using rake
 
     rake db:create
