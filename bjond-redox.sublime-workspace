@@ -1,0 +1,1523 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"rule_con",
+				"rule_condition"
+			],
+			[
+				"asCon",
+				"asCondition"
+			],
+			[
+				"rule",
+				"ruleDefinitionIDs"
+			],
+			[
+				"task",
+				"taskID"
+			],
+			[
+				"arra",
+				"arrayLength"
+			],
+			[
+				"error",
+				"errorString"
+			],
+			[
+				"err",
+				"errorString"
+			],
+			[
+				"json",
+				"jsonObject"
+			],
+			[
+				"Json",
+				"JSONUtils"
+			],
+			[
+				"iden",
+				"identityManager"
+			],
+			[
+				"req",
+				"requiredError"
+			],
+			[
+				"grou",
+				"groups"
+			],
+			[
+				"gr",
+				"groups"
+			],
+			[
+				"non",
+				"NonNull"
+			],
+			[
+				"g",
+				"getLoginName"
+			],
+			[
+				"user",
+				"userID"
+			],
+			[
+				"erro",
+				"errorHandler"
+			],
+			[
+				"comm",
+				"commTemp"
+			],
+			[
+				"con",
+				"consequence"
+			],
+			[
+				"communication",
+				"communicationTemplate"
+			],
+			[
+				"inline",
+				"inline-block"
+			],
+			[
+				"UI",
+				"UITypeReciprocals"
+			],
+			[
+				"login",
+				"loginname"
+			],
+			[
+				"l",
+				"loginname"
+			],
+			[
+				"para",
+				"parameterData"
+			],
+			[
+				"replace",
+				"replaceAll"
+			],
+			[
+				"group",
+				"groupID"
+			],
+			[
+				"cancel",
+				"cancelSingleTask"
+			],
+			[
+				"re",
+				"recurrence"
+			],
+			[
+				"cance",
+				"cancelSingleTask"
+			],
+			[
+				"new",
+				"newCons"
+			],
+			[
+				"event",
+				"eventData"
+			],
+			[
+				"eve",
+				"eventObject"
+			],
+			[
+				"tas",
+				"taskId"
+			],
+			[
+				"getby",
+				"getByID"
+			],
+			[
+				"Inte",
+				"IntegrationRuleEvent"
+			],
+			[
+				"optinal",
+				"optionalData"
+			],
+			[
+				"au",
+				"authorizationService"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"person",
+				"personForNonUserData"
+			],
+			[
+				"find",
+				"findByID"
+			],
+			[
+				"BJOND",
+				"BJOND_SYSTEM_ADMINISTRATION_ROLE"
+			],
+			[
+				"Arra",
+				"Arrays"
+			],
+			[
+				"Ar",
+				"ArrayList"
+			],
+			[
+				"peope",
+				"peopleMatching"
+			],
+			[
+				"users",
+				"usersPerson"
+			],
+			[
+				"entit",
+				"entityManager"
+			],
+			[
+				"parent",
+				"parentGroups"
+			],
+			[
+				"getcurr",
+				"getCurrentGroupHierarchyAboveIDs"
+			],
+			[
+				"getT",
+				"getTenantDivision"
+			],
+			[
+				"forea",
+				"foreachDoEffect"
+			],
+			[
+				"getG",
+				"getAllGroups"
+			],
+			[
+				"getg",
+				"getGroupId"
+			],
+			[
+				"Per",
+				"PersonPerson"
+			],
+			[
+				"em",
+				"empty"
+			],
+			[
+				"gett",
+				"getTenantDivision"
+			],
+			[
+				"def",
+				"deferred"
+			],
+			[
+				"view",
+				"viewContentLoaded"
+			],
+			[
+				"page",
+				"pageLoadingComplete"
+			],
+			[
+				"log",
+				"logout"
+			],
+			[
+				"selecte",
+				"selectedList"
+			],
+			[
+				"data",
+				"dataArray"
+			],
+			[
+				"ques",
+				"questionData"
+			],
+			[
+				"qes",
+				"questions"
+			],
+			[
+				"return",
+				"returnRecordIdCollectionArray"
+			],
+			[
+				"record",
+				"recordType"
+			],
+			[
+				"msg",
+				"msgBus"
+			],
+			[
+				"promise",
+				"promiseArray"
+			],
+			[
+				"candele",
+				"canDeleteStandaloneRules"
+			],
+			[
+				"User",
+				"UserPermissionService"
+			],
+			[
+				"list",
+				"listToDelete"
+			],
+			[
+				"quest",
+				"questionid"
+			],
+			[
+				"bjondques",
+				"bjondQuestionModel"
+			],
+			[
+				"bjondqu",
+				"bjondQuestionModel"
+			],
+			[
+				"bjondbl",
+				"bjondBlack"
+			],
+			[
+				"backgo",
+				"background-color"
+			],
+			[
+				"back",
+				"background"
+			],
+			[
+				"padding",
+				"padding-left"
+			],
+			[
+				"selec",
+				"selectedFiles"
+			],
+			[
+				"file",
+				"fileid"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"wsper",
+				"wsPersonDetailsHeight"
+			],
+			[
+				"border-s",
+				"border-style"
+			],
+			[
+				"border",
+				"border-style"
+			],
+			[
+				"relat",
+				"relationshipTypes"
+			],
+			[
+				"key",
+				"keysToDelete"
+			],
+			[
+				"relation",
+				"relationshipTypes"
+			],
+			[
+				"fin",
+				"findMe"
+			],
+			[
+				"rela",
+				"relationshipName"
+			],
+			[
+				"rel",
+				"relationshipName"
+			],
+			[
+				"border-col",
+				"border-color"
+			],
+			[
+				"bjond",
+				"bjondWhite"
+			],
+			[
+				"margin",
+				"margin-right"
+			],
+			[
+				"bjon",
+				"bjondWhite"
+			],
+			[
+				"bjo",
+				"bjondWhite"
+			],
+			[
+				"model",
+				"modelValue"
+			],
+			[
+				"mo",
+				"modelValue"
+			],
+			[
+				"relaton",
+				"relationship"
+			],
+			[
+				"drop",
+				"dropdown-menu"
+			],
+			[
+				"item",
+				"itemScope"
+			],
+			[
+				"cl",
+				"classList"
+			],
+			[
+				"dele",
+				"deleteRelationship"
+			],
+			[
+				"recipr",
+				"reciprocal"
+			],
+			[
+				"is",
+				"isNewRelationship"
+			],
+			[
+				"no",
+				"no-repeat"
+			],
+			[
+				"recip",
+				"reciprocalName"
+			],
+			[
+				"dupi",
+				"duplicateKey"
+			],
+			[
+				"dup",
+				"duplicateKeys"
+			],
+			[
+				"personI",
+				"personIdCollection"
+			],
+			[
+				"peo",
+				"peopleData"
+			],
+			[
+				"sele",
+				"selectedRecords"
+			],
+			[
+				"persist",
+				"persistence"
+			],
+			[
+				"b",
+				"bjond"
+			],
+			[
+				"tena",
+				"tenantDivision"
+			],
+			[
+				"pers",
+				"persist"
+			],
+			[
+				"Person",
+				"PersonPhoneType"
+			],
+			[
+				"setFK",
+				"setFkConfigurationUserSettings"
+			],
+			[
+				"confi",
+				"configurationUserSettings"
+			],
+			[
+				"userp",
+				"UserPhone"
+			],
+			[
+				"userphon",
+				"UserPhoneType"
+			],
+			[
+				"loa",
+				"loadWorkspace"
+			],
+			[
+				"setting",
+				"Settings"
+			],
+			[
+				"curr",
+				"currentPage"
+			],
+			[
+				"curren",
+				"currentPage"
+			],
+			[
+				"reci",
+				"reciprocal"
+			],
+			[
+				"mock",
+				"mockService"
+			],
+			[
+				"rec",
+				"reciprocalName"
+			],
+			[
+				"submit",
+				"submitAssessment"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/models/redox_configuration.rb",
+			"settings":
+			{
+				"buffer_size": 241,
+				"line_ending": "Unix"
+			}
+		},
+		{
+			"file": "app/controllers/patient_admin_controller.rb",
+			"settings":
+			{
+				"buffer_size": 2318,
+				"line_ending": "Unix"
+			}
+		}
+	],
+	"build_system": "",
+	"command_palette":
+	{
+		"height": 392.0,
+		"selected_items":
+		[
+		],
+		"width": 467.0
+	},
+	"console":
+	{
+		"height": 0.0
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/build/resources/main/db/migration/V2_1476384676__Traverse_rule_condition_tree_structure.sql",
+		"/Users/nancybennum/Library/Application Support/Sublime Text 2/Packages/Default/Preferences.sublime-settings",
+		"/Users/nancybennum/Library/Application Support/Sublime Text 2/Packages/User/Preferences.sublime-settings",
+		"/Users/nancybennum/Library/Application Support/Sublime Text 2/Packages/User/SQL.sublime-settings",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/task.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/templates/inline-question-template.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/templates/rule-name.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/dialogs/create-tag.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/question-value.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/question-table.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/multiple-choice.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/question.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/date-time.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives/workboard-directives.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/assessment.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/communication-template.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/browser-assessments.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/workboard.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/workboard.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/app.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/taskRules.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/dataservice.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/task.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/rule/RuleDefinition.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/misc/MiscQueries.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/RuleDefinitionService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V2_1476384676__Traverse_rule_condition_tree_structure.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/build/resources/main/db/migration/V2_1476384672__Add_Uniqueness_validation_to_CommunicationTemplates.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/build/resources/main/db/migration/V2_1439319468__Revise_Rule_Tables.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/task/BjondTask.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/clojure/ClojureService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/logging/LoggerFactory.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/sms/SMSService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/notification/SimplePushService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/assessment/AssessmentFormulaMap.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/assessment/AssessmentClojureService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services/taskRulesServiceTest.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/rule/Condition.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/rule/Argument.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/rule/Consequence.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/dialogs/execute-task-component.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/execute-task.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/executetask.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/libraries/bjond-utilities/src/main/java/com/bjond/utilities/MiscUtils.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/SearchService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/datomic/RuleService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/TaskAndWorkflowService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/external/rest/TaskAPIService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/IdentityManagementService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/authenticators/PasswordResetRunnable.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/AuthenticationService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/UserService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/dataservice.mock.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/internal/InternalPersonService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/base/AbstractServiceBase.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/index.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services/notification-service.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services/notification-service.mock.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/angular-websocket/dist/angular-websocket-mock.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/angular-websocket/.bower.json",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/angular-websocket/README.md",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/angular/angular.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/emails/ResetPasswordEmail.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/stm/StateTransitionMachineService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/resetPassword.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/reset.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/session-service.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/session/BjondSession.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/login.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/PasswordValidationService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/settings/dialogs/create-user.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/auditing/AuditService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/authenticators/ConfirmationEmailRunnable.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/SystemAdministrationService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/cryptography/SRP6a.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/tenant/TenantDivision.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V1_10__Insert_Realms_Users_Groups_Roles_Tiers.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/styles/login.less",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/configuration/UserEmailAddress.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/reset-password.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/lib/angular-timer/bower_components/bootstrap/less/reset.less",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V1_28__Create_task_tables.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/datomic/IntegrationAction.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/cryptography/JWTUtil.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/interfaces/IIdentityManagementService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/security/UserDefinedRoleService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/IntegrationManagerService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/codes/CodeService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/api/TaskAPI.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V2_1472592270__Create_Rest_User.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/interfaces/Task.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/edit-rule.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/styles/edit-rule.less",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives/rules/bjondAndOr.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/editRule.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/rule/Constraint.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V2_1472136435__Update_Communication_Types.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/communicationTemplate.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V2_1467398882__User_Phone_Email.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/java/db/migration/V1_54__Question_template_id_fix.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/java/db/migration/V1_52__Superset_to_Includes.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/java/db/migration/V1_62__Update_Existing_Questions_with_absoluteOrder.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/java/db/migration/V2_1472040039__Migration_Natural_Sort_Order_Users.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/java/db/migration/V2_1466421714__Create_Genders_For_All_Parent_Groups.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/java/db/migration/V2_1469468439__Ensure_Atleast_One_PPU_PerUser_PerTenant.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/ruleDefinitions/bjond-and-or.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/platforms/browser/src/main/webapp/scripts/services/ruleUiServiceGenerator.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services/ruleTranslator.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/persistence/communication/CommunicationTemplate.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/datomic/SendSMSAction.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/datomic/SendEmailAction.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V2_1470829093__Add_Dual_Communication_Template_Support.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services/ruleUiServiceGenerator.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/datomic/SendCommunicationAction.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/consequence/ConsequenceService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules/datomic/Action.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rest/CommunicationTemplateService.java",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/styles/global.less",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/styles/communication-template.less",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration/V2_1468352338__create_communication_template.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/build/resources/main/db/migration/V2_1468352338__create_communication_template.sql",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives/controls.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives/directives.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/person.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views/rules/question-response.html",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers/rules.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/sorters/sortService.js",
+		"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services/UIOptionsService.js"
+	],
+	"find":
+	{
+		"height": 35.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/src/main/resources/db/migration",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers,/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives,/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/views",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers,/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives,/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/services/server-core/src/main/java/com/bjond/rules",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop",
+			"",
+			"/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/controllers,/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/directives,/Users/nancybennum/Documents/BjondInc/bjond-health/clients/html5-desktop/app/scripts/services",
+			""
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"user-role-input-box",
+			"ws-role-input-label",
+			"tag-dialog-error-message",
+			"demo",
+			"tag name (required)",
+			"tag name )required)",
+			"rule name",
+			"input option",
+			"bjondwslabel",
+			"getTabs",
+			"browser",
+			"wb-browser-home-category",
+			"create new:",
+			"create new_",
+			"defaultNewItemOptions",
+			"newitem.open",
+			"index",
+			"stringuti",
+			"log",
+			"collections",
+			"fk_rule",
+			"findIDsByConditionsAndGroupID",
+			"readAndViewAudit",
+			"@Log4j",
+			"bjond.logging",
+			"logger",
+			"TaskActivation",
+			"findIDsByConditionsAndGroupID",
+			"findIDsByConditionsAndGroupID_ForRuleDefinition",
+			"launchFile",
+			"RuleDefinition.searchAll",
+			"searchAll",
+			"rulesservice",
+			"reset",
+			"dialog",
+			"val",
+			"isinrule",
+			"deleteTask",
+			"deletetasks",
+			"browserpanelclickdeletetask",
+			"identityManager",
+			"identityService",
+			"TemplatableValidation",
+			"tenantService",
+			"TenantDivision",
+			"MiscQueries",
+			"entityManager",
+			"BjondTask.findByIdAndGroupID",
+			"map",
+			"findById",
+			"beanManager",
+			"fireEvent",
+			"errorresponse",
+			"changeState",
+			"persistenceServiceupdate",
+			"IBjondEntity",
+			"IRuleEvent",
+			"IBjondEntity",
+			"errorResponse",
+			"changestate",
+			"update",
+			"BjondNotificationService.reconnect",
+			"BjondNotificationService.close",
+			"BjondNotificationService.sendmessage",
+			"geturi",
+			"BjondNotificationService.getURI",
+			"BjondNotificationService.handleMessage",
+			"BjondNotificationService.handleError",
+			"bjondnotificationservice.handleError",
+			"handleOpen",
+			"BjondNotificationService.handleOpen",
+			"BjondNotificationService.handleclose",
+			"BjondNotificationService.reconnect",
+			"bjondnotificationservice.reconnect",
+			"ngWebSocket",
+			"ngwebsocket",
+			"beforeeach",
+			"ngWebSocket",
+			"httpbackend",
+			"log.info",
+			"/step1",
+			"could not find username",
+			"BjondSession",
+			"passworderror",
+			"too_short",
+			"runAsSystemAdministrator",
+			"passwordValidation",
+			"passwordvali",
+			"getgroup",
+			"getallgr",
+			"resetpassword",
+			"password/reset/confirmed/",
+			"allGroupsForUser",
+			"allgroupsfor",
+			"com.bjond.rest.systemadministration",
+			"groupsforuser",
+			"getgroup",
+			"var",
+			"identityManager",
+			"updatePassword",
+			"initializeUser",
+			"could not find username",
+			"group",
+			"groupid",
+			"getAllGroups",
+			"user",
+			"allGroupsForUser",
+			"groupsfor",
+			"getgroup",
+			"passwordValidationService.validate",
+			"lookupbyid",
+			"USERID_CLAIM",
+			"identityService",
+			"validateToken",
+			"bjond-login-back",
+			"parseJwt",
+			"getRequest",
+			"reset",
+			"JSONArray",
+			"org.json.JSONArray",
+			"userid",
+			"comment",
+			"user_id",
+			"json",
+			"BjondTask",
+			"extractJSONClaimIfPresent",
+			"json",
+			"jsonobject"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+			"9",
+			"8",
+			"7",
+			"4",
+			"63",
+			"62",
+			"61",
+			"9",
+			"8",
+			"taskMargin",
+			"wb-workspace-label-note-required"
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 1,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/models/redox_configuration.rb",
+					"settings":
+					{
+						"buffer_size": 241,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "app/controllers/patient_admin_controller.rb",
+					"settings":
+					{
+						"buffer_size": 2318,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1319,
+								1319
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/Ruby/Ruby.tmLanguage",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 405.0,
+						"zoom_level": 1.0
+					},
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 0.0
+	},
+	"input":
+	{
+		"height": 31.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+			[
+				"traver",
+				"Unfiltered Project/build/resources/main/db/migration/V2_1476384676__Traverse_rule_condition_tree_structure.sql"
+			],
+			[
+				"assess",
+				"Desktop Client/views/assessment.html"
+			],
+			[
+				"app",
+				"Desktop Client/styles/app.less"
+			],
+			[
+				"task",
+				"Desktop Client/views/task.html"
+			],
+			[
+				"inline",
+				"Desktop Client/views/templates/inline-question-template.html"
+			],
+			[
+				"workboard-de",
+				"Desktop Client/scripts/directives/workboard-directives.js"
+			],
+			[
+				"value",
+				"Desktop Client/views/question-value.html"
+			],
+			[
+				"table",
+				"Desktop Client/views/question-table.html"
+			],
+			[
+				"multipl",
+				"Desktop Client/views/multiple-choice.html"
+			],
+			[
+				"question",
+				"Desktop Client/views/question.html"
+			],
+			[
+				"communication",
+				"Desktop Client/views/communication-template.html"
+			],
+			[
+				"assessmen",
+				"Desktop Client/views/assessment.html"
+			],
+			[
+				"workboard",
+				"Desktop Client/scripts/controllers/workboard.js"
+			],
+			[
+				"1476384672",
+				"Unfiltered Project/build/resources/main/db/migration/V2_1476384672__Add_Uniqueness_validation_to_CommunicationTemplates.sql"
+			],
+			[
+				"bjondta",
+				"Server Core/src/main/java/com/bjond/persistence/task/BjondTask.java"
+			],
+			[
+				"dataser",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/dataservice.js"
+			],
+			[
+				"condition",
+				"Server Core/src/main/java/com/bjond/persistence/rule/Condition.java"
+			],
+			[
+				"argument",
+				"Server Core/src/main/java/com/bjond/persistence/rule/Argument.java"
+			],
+			[
+				"consequ",
+				"Unfiltered Project/services/server-core/src/main/java/com/bjond/persistence/rule/Consequence.java"
+			],
+			[
+				"conse",
+				"Server Core/src/main/java/com/bjond/persistence/rule/Consequence.java"
+			],
+			[
+				"execut",
+				"Desktop Client/views/dialogs/execute-task-component.html"
+			],
+			[
+				"execute",
+				"Desktop Client/views/execute-task.html"
+			],
+			[
+				"miscqu",
+				"Server Core/src/main/java/com/bjond/persistence/misc/MiscQueries.java"
+			],
+			[
+				"miscu",
+				"Unfiltered Project/libraries/bjond-utilities/src/main/java/com/bjond/utilities/MiscUtils.java"
+			],
+			[
+				"ruledef",
+				"Server Core/src/main/java/com/bjond/persistence/rule/RuleDefinition.java"
+			],
+			[
+				"rules",
+				"Server Core/src/main/java/com/bjond/rules/datomic/RuleService.java"
+			],
+			[
+				"taskand",
+				"Server Core/src/main/java/com/bjond/rest/TaskAndWorkflowService.java"
+			],
+			[
+				"taskap",
+				"Server Core/src/main/java/com/bjond/external/rest/TaskAPIService.java"
+			],
+			[
+				"identiyser",
+				"Server Core/src/main/java/com/bjond/security/IdentityManagementService.java"
+			],
+			[
+				"passwordresetru",
+				"Server Core/src/main/java/com/bjond/security/authenticators/PasswordResetRunnable.java"
+			],
+			[
+				"authentication",
+				"Server Core/src/main/java/com/bjond/security/AuthenticationService.java"
+			],
+			[
+				"userser",
+				"Server Core/src/main/java/com/bjond/rest/UserService.java"
+			],
+			[
+				"taskando",
+				"Server Core/src/main/java/com/bjond/rest/TaskAndWorkflowService.java"
+			],
+			[
+				"taskapi",
+				"Server Core/src/main/java/com/bjond/external/rest/TaskAPIService.java"
+			],
+			[
+				"bjondtask",
+				"Server Core/src/main/java/com/bjond/persistence/task/BjondTask.java"
+			],
+			[
+				"index",
+				"Desktop Client/index.html"
+			],
+			[
+				"notifi",
+				"Desktop Client/scripts/services/notification-service.js"
+			],
+			[
+				"notifica",
+				"Desktop Client/scripts/services/notification-service.mock.js"
+			],
+			[
+				"datasr",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/dataservice.mock.js"
+			],
+			[
+				"taskandwor",
+				"Server Core/src/main/java/com/bjond/rest/TaskAndWorkflowService.java"
+			],
+			[
+				"statettan",
+				"Server Core/src/main/java/com/bjond/stm/StateTransitionMachineService.java"
+			],
+			[
+				"resetpassword",
+				"Server Core/src/main/java/com/bjond/rest/emails/ResetPasswordEmail.html"
+			],
+			[
+				"manage",
+				"Server Core/src/main/java/com/bjond/security/IdentityManagementService.java"
+			],
+			[
+				"identityser",
+				"Unfiltered Project/services/server-core/src/main/java/com/bjond/security/IdentityManagementService.java"
+			],
+			[
+				"session",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/session-service.js"
+			],
+			[
+				"bjondsess",
+				"Server Core/src/main/java/com/bjond/security/session/BjondSession.java"
+			],
+			[
+				"login",
+				"Desktop Client/scripts/controllers/login.js"
+			],
+			[
+				"passwordre",
+				"Server Core/src/main/java/com/bjond/security/authenticators/PasswordResetRunnable.java"
+			],
+			[
+				"auditser",
+				"Server Core/src/main/java/com/bjond/security/auditing/AuditService.java"
+			],
+			[
+				"passwordvalidation",
+				"Server Core/src/main/java/com/bjond/security/PasswordValidationService.java"
+			],
+			[
+				"systemad",
+				"Server Core/src/main/java/com/bjond/rest/SystemAdministrationService.java"
+			],
+			[
+				"dataservice",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/dataservice.js"
+			],
+			[
+				"workb",
+				"Desktop Client/scripts/controllers/workboard.js"
+			],
+			[
+				"srp",
+				"Server Core/src/main/java/com/bjond/security/cryptography/SRP6a.java"
+			],
+			[
+				"systema",
+				"Server Core/src/main/java/com/bjond/rest/SystemAdministrationService.java"
+			],
+			[
+				"tenant",
+				"Server Core/src/main/java/com/bjond/persistence/tenant/TenantDivision.java"
+			],
+			[
+				"user",
+				"Server Core/src/main/java/com/bjond/persistence/configuration/UserEmailAddress.java"
+			],
+			[
+				"bjondsession",
+				"Server Core/src/main/java/com/bjond/security/session/BjondSession.java"
+			],
+			[
+				"reset",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/lib/angular-timer/bower_components/bootstrap/less/reset.less"
+			],
+			[
+				"integat",
+				"Server Core/src/main/java/com/bjond/rules/datomic/IntegrationAction.java"
+			],
+			[
+				"jwtu",
+				"Server Core/src/main/java/com/bjond/security/cryptography/JWTUtil.java"
+			],
+			[
+				"ii",
+				"Server Core/src/main/java/com/bjond/security/interfaces/IIdentityManagementService.java"
+			],
+			[
+				"roles",
+				"Server Core/src/main/java/com/bjond/security/UserDefinedRoleService.java"
+			],
+			[
+				"taskandwork",
+				"Server Core/src/main/java/com/bjond/rest/TaskAndWorkflowService.java"
+			],
+			[
+				"taskjav",
+				"Server Core/src/main/java/com/bjond/persistence/interfaces/Task.java"
+			],
+			[
+				"integrationma",
+				"Server Core/src/main/java/com/bjond/rest/IntegrationManagerService.java"
+			],
+			[
+				"const",
+				"Server Core/src/main/java/com/bjond/persistence/rule/Constraint.java"
+			],
+			[
+				"communicat",
+				"Desktop Client/scripts/controllers/communicationTemplate.js"
+			],
+			[
+				"communica",
+				"Desktop Client/views/communication-template.html"
+			],
+			[
+				"edit",
+				"Desktop Client/styles/edit-rule.less"
+			],
+			[
+				"dataservi",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/services/dataservice.mock.js"
+			],
+			[
+				"communicationt",
+				"Server Core/src/main/java/com/bjond/persistence/communication/CommunicationTemplate.java"
+			],
+			[
+				"consequence",
+				"Server Core/src/main/java/com/bjond/persistence/rule/Consequence.java"
+			],
+			[
+				"edit-ru",
+				"Desktop Client/views/edit-rule.html"
+			],
+			[
+				"sendsmsa",
+				"Server Core/src/main/java/com/bjond/rules/datomic/SendSMSAction.java"
+			],
+			[
+				"communicationtem",
+				"Server Core/src/main/java/com/bjond/rest/CommunicationTemplateService.java"
+			],
+			[
+				"communicaitontem",
+				"Server Core/src/main/java/com/bjond/persistence/communication/CommunicationTemplate.java"
+			],
+			[
+				"integrationa",
+				"Server Core/src/main/java/com/bjond/rules/datomic/IntegrationAction.java"
+			],
+			[
+				"task.js",
+				"Desktop Client/scripts/controllers/task.js"
+			],
+			[
+				"communicaiton",
+				"Server Core/src/main/java/com/bjond/persistence/communication/CommunicationTemplate.java"
+			],
+			[
+				"glob",
+				"Desktop Client/styles/global.less"
+			],
+			[
+				"communi",
+				"Desktop Client/styles/communication-template.less"
+			],
+			[
+				"workbo",
+				"Desktop Client/scripts/directives/workboard-directives.js"
+			],
+			[
+				"direc",
+				"Desktop Client/scripts/directives/directives.js"
+			],
+			[
+				"peron",
+				"Desktop Client/scripts/controllers/person.js"
+			],
+			[
+				"constraint",
+				"Server Core/src/main/java/com/bjond/persistence/rule/Constraint.java"
+			],
+			[
+				"editrul",
+				"Desktop Client/scripts/controllers/editRule.js"
+			],
+			[
+				"edit-rule",
+				"Desktop Client/styles/edit-rule.less"
+			],
+			[
+				"sorts",
+				"Unfiltered Project/clients/html5-desktop/app/scripts/bower_components/bjond-health-client-api/src/sorters/sortService.js"
+			],
+			[
+				"displayda",
+				"Desktop Client/scripts/services/displayData.js"
+			],
+			[
+				"passwordvalida",
+				"Server Core/src/main/java/com/bjond/security/PasswordValidationService.java"
+			],
+			[
+				"password",
+				"Server Core/src/main/java/com/bjond/security/PasswordValidationService.java"
+			],
+			[
+				"ipasswordval",
+				"Server Core/src/main/java/com/bjond/security/interfaces/IPasswordValidationService.java"
+			],
+			[
+				"confirmationemial",
+				"Unfiltered Project/services/server-core/src/main/java/com/bjond/security/authenticators/ConfirmationEmailRunnable.java"
+			],
+			[
+				"persons",
+				"Server Core/src/main/java/com/bjond/rest/PersonService.java"
+			],
+			[
+				"personserv",
+				"Desktop Client/scripts/services/personService.js"
+			],
+			[
+				"globa",
+				"Desktop Client/styles/global.less"
+			],
+			[
+				"emails",
+				"Server Core/src/main/java/com/bjond/email/EmailService.java"
+			],
+			[
+				"confirmationem",
+				"Server Core/src/main/java/com/bjond/security/authenticators/ConfirmationEmailRunnable.java"
+			],
+			[
+				"authentic",
+				"Server Core/src/main/java/com/bjond/security/AuthenticationService.java"
+			],
+			[
+				"recurrenceexpress",
+				"Server Core/src/main/java/com/bjond/clojure/RecurrenceExpression.java"
+			],
+			[
+				"jobsch",
+				"Server Core/src/main/java/com/bjond/quartz/interfaces/IJobSchedulerService.java"
+			],
+			[
+				"quartz",
+				"Server Core/src/main/java/com/bjond/quartz/interfaces/IJobSchedulerService.java"
+			],
+			[
+				"bjondqua",
+				"Server Core/src/main/java/com/bjond/quartz/BjondQuartzService.java"
+			],
+			[
+				"jobsche",
+				"Server Core/src/main/java/com/bjond/quartz/JobSchedulerService.java"
+			],
+			[
+				"recurrence",
+				"Server Core/src/main/java/com/bjond/persistence/schedule/Recurrence.java"
+			],
+			[
+				"jobsched",
+				"Server Core/src/main/java/com/bjond/quartz/JobSchedulerService.java"
+			],
+			[
+				"batch",
+				"Server Core/src/main/java/com/bjond/tasks/TaskBatchOperationsService.java"
+			],
+			[
+				"gender",
+				"Server Core/src/main/java/com/bjond/persistence/person/PersonGender.java"
+			],
+			[
+				"personser",
+				"Server Core/src/test/java/com/bjond/tests/integration/PersonServiceTests.java"
+			],
+			[
+				"personu",
+				"Server Core/src/main/java/com/bjond/utilities/PersonUtils.java"
+			],
+			[
+				"personuti",
+				"Server Core/src/main/java/com/bjond/utilities/PersonUtils.java"
+			],
+			[
+				"person",
+				"Desktop Client/scripts/controllers/person.js"
+			],
+			[
+				"personper",
+				"Server Core/src/main/java/com/bjond/persistence/person/PersonPerson.java"
+			],
+			[
+				"taskandwo",
+				"Server Core/src/main/java/com/bjond/rest/TaskAndWorkflowService.java"
+			],
+			[
+				"recurren",
+				"Desktop Client/scripts/services/recurrenceService.js"
+			],
+			[
+				"schedu",
+				"Desktop Client/scripts/controllers/schedule.js"
+			],
+			[
+				"schedule",
+				"Desktop Client/views/schedule/schedule.html"
+			],
+			[
+				"job",
+				"Server Core/src/main/java/com/bjond/quartz/JobSchedulerService.java"
+			],
+			[
+				"mock",
+				"Desktop Client/scripts/services/mockDatabase.js"
+			],
+			[
+				"recurrencejava",
+				"Server Core/src/main/java/com/bjond/persistence/schedule/Recurrence.java"
+			],
+			[
+				"bjondt",
+				"Server Core/src/main/java/com/bjond/persistence/task/BjondTask.java"
+			],
+			[
+				"settings",
+				"Desktop Client/styles/settings.less"
+			],
+			[
+				"userdef",
+				"Unfiltered Project/clients/html5-desktop/platforms/browser/src/main/webapp/scripts/bower_components/bjond-health-client-api/src/services/userDefinedRoleService.js"
+			],
+			[
+				"integrationac",
+				"Unfiltered Project/services/server-core/src/main/java/com/bjond/rules/datomic/IntegrationAction.java"
+			],
+			[
+				"integrationcon",
+				"Server Core/src/main/java/com/bjond/persistence/integration/IntegrationConsequence.java"
+			],
+			[
+				"eventda",
+				"Server Core/src/main/java/com/bjond/rest/integration/IntegrationEventDefinition.java"
+			],
+			[
+				"ruleser",
+				"Unfiltered Project/services/server-core/src/main/java/com/bjond/rules/datomic/RuleService.java"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 263.0,
+	"status_bar_visible": true
+}
