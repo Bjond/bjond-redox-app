@@ -1,6 +1,6 @@
 class PatientAdminController < ApplicationController
 
-  skip_before_filter :verify_authenticity_token, :only => [:arrival]
+  skip_before_filter :verify_authenticity_token, :only => [:arrival, :discharge]
 
   require 'bjond-api'
   
@@ -68,6 +68,20 @@ class PatientAdminController < ApplicationController
   end
 
   def verify_arrival
+    if request.headers['verification-token'] == ENV['REDOX_VERIFICATION_TOKEN']
+      render :text => params[:challenge]
+    else
+      render :json => {
+        :data => "Failed to verify token."
+      }
+    end
+  end
+
+  def discharge
+    arrival()
+  end
+
+  def verify_discharge
     if request.headers['verification-token'] == ENV['REDOX_VERIFICATION_TOKEN']
       render :text => params[:challenge]
     else
