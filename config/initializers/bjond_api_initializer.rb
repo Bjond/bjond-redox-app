@@ -82,7 +82,23 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.fieldType = 'MultipleChoice'
           f.options = [
             'Arrival',
-            'Discharge'
+            'Discharge',
+            'Transfer',
+            'Registration',
+            'Cancel'
+          ]
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '5422679d-195f-45c9-9575-82d58fb6c4f2'
+          f.jsonKey = 'canceledEvent'
+          f.name = 'Canceled Event'
+          f.description = 'This is the event type to be canceled.'
+          f.fieldType = 'MultipleChoice'
+          f.options = [
+            'Arrival',
+            'Discharge',
+            'Transfer'
           ]
           f.event = e.id
         end,

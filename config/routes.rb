@@ -8,5 +8,14 @@ Rails.application.routes.draw do
   get  '/redox/patient_admin/discharge' => 'patient_admin#verify_discharge'
   post '/redox/patient_admin/discharge' => 'patient_admin#discharge'
 
+  get  '/redox/patient_admin/transfer' => 'patient_admin#verify_transfer'
+  post '/redox/patient_admin/transfer' => 'patient_admin#transfer'
+
+  get  '/redox/patient_admin/registration' => 'patient_admin#verify_registration'
+  post '/redox/patient_admin/registration' => 'patient_admin#registration'
+
+  get  '/redox/patient_admin/cancel' => 'patient_admin#verify_cancel'
+  post '/redox/patient_admin/cancel' => 'patient_admin#cancel'
+
   resources :redox_configurations
 end

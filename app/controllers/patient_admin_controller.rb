@@ -1,6 +1,6 @@
 class PatientAdminController < ApplicationController
 
-  skip_before_filter :verify_authenticity_token, :only => [:arrival, :discharge]
+  skip_before_filter :verify_authenticity_token, :only => [:arrival, :discharge, :transfer, :registration, :cancel]
 
   require 'bjond-api'
   
@@ -14,6 +14,11 @@ class PatientAdminController < ApplicationController
     patient_info = parsed["Patient"]
     if (!meta_info.nil?)
       event_type = meta_info["EventType"]
+      if (!meta_info["CanceledEvent"].nil?)
+        canceled_event = meta_info["CanceledEvent"]
+      else
+        canceled_event = nil
+      end
     end
     if (!patient_info.nil?)
       diagnoses = patient_info["Diagnoses"]
@@ -40,7 +45,8 @@ class PatientAdminController < ApplicationController
       :diagnosesCodes => diagnoses_codes,
       :servicingFacility => facility,
       :sex => biological_sex,
-      :dischargeDisposition => reason
+      :dischargeDisposition => reason,
+      :canceledEvent => canceled_event
     }
     puts event_data
 
@@ -90,4 +96,47 @@ class PatientAdminController < ApplicationController
       }
     end
   end
+
+  def transfer
+    arrival()
+  end
+
+  def verify_transfer
+    if request.headers['verification-token'] == ENV['REDOX_VERIFICATION_TOKEN']
+      render :text => params[:challenge]
+    else
+      render :json => {
+        :data => "Failed to verify token."
+      }
+    end
+  end
+
+  def registration
+    arrival()
+  end
+
+  def verify_registration
+    if request.headers['verification-token'] == ENV['REDOX_VERIFICATION_TOKEN']
+      render :text => params[:challenge]
+    else
+      render :json => {
+        :data => "Failed to verify token."
+      }
+    end
+  end
+
+  def cancel
+    arrival()
+  end
+
+  def verify_cancel
+    if request.headers['verification-token'] == ENV['REDOX_VERIFICATION_TOKEN']
+      render :text => params[:challenge]
+    else
+      render :json => {
+        :data => "Failed to verify token."
+      }
+    end
+  end
+
 end
