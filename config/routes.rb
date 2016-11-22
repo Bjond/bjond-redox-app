@@ -17,5 +17,11 @@ Rails.application.routes.draw do
   get  '/redox/patient_admin/cancel' => 'patient_admin#verify_cancel'
   post '/redox/patient_admin/cancel' => 'patient_admin#cancel'
 
+  get  '/redox/patient_admin/pre_admit' => 'patient_admin#verify_pre_admit'
+  post '/redox/patient_admin/pre_admit' => 'patient_admin#pre_admit'
+
+  get  '/redox/patient_admin/visit_update' => 'patient_admin#visit_update'
+  post '/redox/patient_admin/visit_update' => 'patient_admin#visit_update'
+
   resources :redox_configurations
 end
