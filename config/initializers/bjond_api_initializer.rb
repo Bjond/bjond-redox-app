@@ -85,7 +85,9 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
             'Discharge',
             'Transfer',
             'Registration',
-            'Cancel'
+            'Cancel',
+            'PreAdmit',
+            'VisitUpdate'
           ]
           f.event = e.id
         end,
