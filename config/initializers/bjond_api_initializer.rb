@@ -22,7 +22,7 @@ config.group_configuration_schema = {
     :sample_person_id => {
       :type => 'string',
       :description => 'Bjond Person ID. This can be any person ID in the tenant.',
-      :title => 'Bjond Patient ID'
+      :title => 'Bjönd Patient ID'
     }
   },
   :required => ['sample_field']
