@@ -11,12 +11,12 @@
 
   <% if @redox_configuration.sample_person_id %>
     <p>
-      <strong>Bjond Person ID:</strong>
+      <strong>Bjönd Person ID:</strong>
       <%= @redox_configuration.sample_person_id %>
     </p>
   <% else %>
     <p class="not-found">
-      Please log in to the Bjond server and select a person ID for this tenant. Once you find this information, <%= link_to 'add it here', edit_redox_configuration_path(@redox_configuration) %>.
+      Please log in to the Bjönd server and select a person ID for this tenant. Once you find this information, <%= link_to 'add it here', edit_redox_configuration_path(@redox_configuration) %>.
     </p>
   <% end %>
 

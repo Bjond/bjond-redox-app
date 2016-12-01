@@ -9,7 +9,7 @@ class RedoxConfigurationsController < ApplicationController
 
   def update
     if @redox_configuration.update(redox_configuration_params)
-      redirect_to @redox_configuration, notice: 'Bjond registration was successfully updated.'
+      redirect_to @redox_configuration, notice: 'Bjönd registration was successfully updated.'
     else
       render :edit
     end
