@@ -136,22 +136,6 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.event = e.id
         end,
         BjondApi::BjondField.new.tap do |f|
-          f.id = 'ef9be5b0-0c52-4eca-92d4-1f034836858e'
-          f.jsonKey = 'admissionTime'
-          f.name = 'Admission Time'
-          f.description = 'The date and time of admission.'
-          f.fieldType = 'DateTime'
-          f.event = e.id
-        end,
-        BjondApi::BjondField.new.tap do |f|
-          f.id = 'f03b8671-d410-4cee-a157-aeadff1753ac'
-          f.jsonKey = 'dischargeTime'
-          f.name = 'Discharge Time'
-          f.description = 'The date and time of discharge.'
-          f.fieldType = 'DateTime'
-          f.event = e.id
-        end,
-        BjondApi::BjondField.new.tap do |f|
           f.id = '847e24fe-fecd-47a8-af00-10b677ca858d'
           f.jsonKey = 'attendingProvider'
           f.name = 'Attending Provider'
@@ -167,6 +151,23 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.fieldType = 'String'
           f.event = e.id
         end
+        ###### Tasha wanted this removed for right now, but I think we'll want it back Issue #3095    ######
+        # BjondApi::BjondField.new.tap do |f|
+        #   f.id = 'ef9be5b0-0c52-4eca-92d4-1f034836858e'
+        #   f.jsonKey = 'admissionTime'
+        #   f.name = 'Admission Time'
+        #   f.description = 'The date and time of admission.'
+        #   f.fieldType = 'DateTime'
+        #   f.event = e.id
+        # end,
+        # BjondApi::BjondField.new.tap do |f|
+        #   f.id = 'f03b8671-d410-4cee-a157-aeadff1753ac'
+        #   f.jsonKey = 'dischargeTime'
+        #   f.name = 'Discharge Time'
+        #   f.description = 'The date and time of discharge.'
+        #   f.fieldType = 'DateTime'
+        #   f.event = e.id
+        # end,
       ]
     end
   ]
