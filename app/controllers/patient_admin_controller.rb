@@ -26,7 +26,7 @@ class PatientAdminController < ApplicationController
         diagnoses_codes = diagnoses.map{ |d| d['Code'] }
       end
 
-      sex = patient_info["Sex"]
+      sex = patient_info["Demographics"]["Sex"] || patient_info["Sex"]
     end
     if (!visit_info.nil?)
       reason = visit_info["Reason"]
