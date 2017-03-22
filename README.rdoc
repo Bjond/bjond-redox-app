@@ -33,3 +33,18 @@ This will serve as the Bjond integration app with the Redox API.
 - Adding/Editing Fields -
 
 You can add new fields in the bjond_api_initializer.rb file.  When you edit this field, you have to update your registration for the changes to show up in the BjondHealth application.  After you have saved your changes to bjond_api_initializer, restart your ruby server.  On your main localhost:3001 page, there is a listing of Bjond Registrations.  Click the "Show" link in the relevant registration.  With your localhost:8080 running, hit the "Update Registration" button.  You should see a success confirmation message.  Log out and log back in to BjondHealth, and the fields should be update.
+
+
+=== Unit Tests
+
+Tests are run using guard, rspec, and capybara. 
+
+- Running tests once: 
+
+    rspec
+
+- Tests can also be run continuously (recommended). To enable this in a terminal, run: 
+
+    guard
+
+- Tests are housed in the spec/ folder. The spec folder has a directory structure that mimics the app folder. Name tests as <rubyFile>_spec.rb. So, if you have a service calld foo.rb, your test will be foo_spec.rb.
