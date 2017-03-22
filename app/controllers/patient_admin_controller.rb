@@ -46,9 +46,11 @@ class PatientAdminController < ApplicationController
       :servicingFacility => facility,
       :sex => biological_sex,
       :dischargeDisposition => reason,
-      :canceledEvent => canceled_event
+      :canceledEvent => canceled_event,
+      :patientAge => 20,
+      :numberField => 24
     }
-    puts event_data
+    puts event_data.to_json
 
     BjondRegistration.all.each do |r|
       ap r

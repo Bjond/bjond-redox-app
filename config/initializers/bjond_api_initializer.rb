@@ -71,6 +71,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.jsonKey = 'bjondPersonId'
           f.name = 'Patient'
           f.description = 'The patient identifier'
+          f.identifier = true
           f.fieldType = 'Person'
           f.event = e.id
         end,
@@ -110,6 +111,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.name = 'Diagnoses Codes'
           f.description = 'This is the code relating to the diagnosis for the patient.'
           f.fieldType = 'MedicalCodeArray'
+          f.persist = true
           f.codeType = 'ICD10'
           f.event = e.id
         end,
@@ -119,6 +121,9 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.name = 'Servicing Facility'
           f.description = 'Name of the facility.'
           f.fieldType = 'String'
+          f.persist = true
+          f.dataType = 'facility'
+          f.unit = 'facility'
           f.event = e.id
         end,
         BjondApi::BjondField.new.tap do |f|
@@ -133,6 +138,9 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
             'Other',
             'Unknown'
           ]
+          f.persist = true
+          f.dataType = 'sex'
+          f.unit = 'sex'
           f.event = e.id
         end,
         BjondApi::BjondField.new.tap do |f|
@@ -149,6 +157,25 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
           f.name = 'Discharge Disposition / Reason'
           f.description = 'Reason for visit.'
           f.fieldType = 'String'
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '123dbe2f-c0d1-451b-ab88-aa3cc47f416c'
+          f.jsonKey = 'patientAge'
+          f.name = 'Patient Age'
+          f.description = 'Age of patient.'
+          f.fieldType = 'Integer'
+          f.persist = true
+          f.dataType = 'age'
+          f.unit = 'years'
+          f.event = e.id
+        end,
+        BjondApi::BjondField.new.tap do |f|
+          f.id = '450dbe2f-c0d1-451b-ab88-aa3cc47f416c'
+          f.jsonKey = 'numberField'
+          f.name = 'Number field'
+          f.description = 'numeric test field.'
+          f.fieldType = 'Number'
           f.event = e.id
         end
         ###### Tasha wanted this removed for right now, but I think we'll want it back Issue #3095    ######
