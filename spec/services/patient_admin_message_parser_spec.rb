@@ -10,7 +10,7 @@ describe PatientAdminMessageParser do
 
   context 'event_data_from_json' do
 
-    context 'arrival' do
+    context 'patient arrival message' do
       before(:each) do
         @raw_json_1 = File.read("#{FIXTURES_DIRECTORY}/patient_arrival_1.json")
       end
@@ -45,7 +45,7 @@ describe PatientAdminMessageParser do
 
       it 'should parse reason as discharge disposition' do
         event_data = PatientAdminMessageParser.event_data_from_json(@raw_json_1)
-        expect(event_data[:dischargeDisposition]).to eq("Check p")
+        expect(event_data[:dischargeDisposition]).to eq("Check up")
       end
     end
 

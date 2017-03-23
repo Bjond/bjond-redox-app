@@ -3,51 +3,12 @@ class PatientAdminController < ApplicationController
   skip_before_filter :verify_authenticity_token, :only => [:arrival, :discharge, :transfer, :registration, :cancel, :pre_admit, :visit_update]
 
   require 'bjond-api'
-  
+
   def arrival
     config = BjondApi::BjondAppConfig.instance
     # Handles payload from Redox, relays to Bjond Server Core in form of event.
     puts request.raw_post
-    parsed = JSON.parse(request.raw_post)
-    meta_info = parsed["Meta"]
-    visit_info = parsed["Visit"]
-    patient_info = parsed["Patient"]
-    if (!meta_info.nil?)
-      event_type = meta_info["EventType"]
-      if (!meta_info["CanceledEvent"].nil?)
-        canceled_event = meta_info["CanceledEvent"]
-      else
-        canceled_event = nil
-      end
-    end
-    if (!patient_info.nil?)
-      diagnoses = patient_info["Diagnoses"]
-      if (!diagnoses.nil? && diagnoses.count > 0)
-        diagnoses_codes = diagnoses.map{ |d| d['Code'] }
-      end
-
-      sex = patient_info["Demographics"]["Sex"] || patient_info["Sex"]
-    end
-    if (!visit_info.nil?)
-      reason = visit_info["Reason"]
-      location = visit_info["Location"]
-      if (!location.nil?)
-        facility = location["Facility"]
-      end
-    end
-
-    biological_sex = 'Unknown'
-    if (sex == 'Male' || sex == 'Female' || sex == 'Other')
-      biological_sex = sex
-    end
-    event_data = {
-      :eventType => event_type,
-      :diagnosesCodes => diagnoses_codes,
-      :servicingFacility => facility,
-      :sex => biological_sex,
-      :dischargeDisposition => reason,
-      :canceledEvent => canceled_event
-    }
+    event_data = PatientAdminMessageParser.event_data_from_json(request.raw_post)
     puts event_data
 
     BjondRegistration.all.each do |r|
