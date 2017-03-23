@@ -1,6 +1,6 @@
 = Bjond Redox App
 
-[![Build Status](https://travis-ci.org/Bjond/bjond-redox-app.svg?branch=master)](https://travis-ci.org/Bjond/bjond-redox-app)
+{<img src="https://travis-ci.org/Bjond/bjond-redox-app.svg?branch=master" alt="Build Status" />}[https://travis-ci.org/Bjond/bjond-redox-app]
 
 This will serve as the Bjond integration app with the Redox API.
 
