@@ -56,7 +56,7 @@ config.active_definition = BjondApi::BjondAppDefinition.new.tap do |app_def|
   app_def.id           = 'e221951b-f0c5-4afe-b609-0325d533483e'
   app_def.author       = 'Bjönd, Inc.'
   app_def.name         = 'Bjönd Redox App'
-  app_def.description  = 'Testing API functionality'
+  app_def.description  = 'Bjönd interface with Redox messages.'
   app_def.iconURL      = 'http://cdn.slidesharecdn.com/profile-photo-RedoxEngine-96x96.jpg?cb=1468963688'
   app_def.integrationEvent = [
     BjondApi::BjondEvent.new.tap do |e|
