@@ -30,8 +30,8 @@ config.group_configuration_schema = {
 
 config.encryption_key_name = 'REDOX_ENCRYPTION_KEY'
 
-def config.configure_group(result, bjond_registration)
-  redox_config = RedoxConfiguration.find_or_initialize_by(:bjond_registration_id => bjond_registration.id)
+def config.configure_group(result, bjond_registration, groupid)
+  redox_config = RedoxConfiguration.find_or_initialize_by(:bjond_registration_id => bjond_registration.id, :group_id => groupid)
   if (redox_config.api_key != result['api_key'] || redox_config.secret != result['secret'] || redox_config.sample_person_id != result['sample_person_id'])
     redox_config.api_key = result['api_key'] 
     redox_config.secret = result['secret']
@@ -41,8 +41,8 @@ def config.configure_group(result, bjond_registration)
   return redox_config
 end
 
-def config.get_group_configuration(bjond_registration)
-  redox_config = RedoxConfiguration.find_by_bjond_registration_id(bjond_registration.id)
+def config.get_group_configuration(bjond_registration, group_id)
+  redox_config = RedoxConfiguration.find_by_bjond_registration_id_and_group_id(bjond_registration.id, group_id)
   if (redox_config.nil?)
     puts 'No configuration has been saved yet.'
     return {:secret => '', :sample_person_id => '', :api_key => ''}
