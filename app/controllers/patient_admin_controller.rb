@@ -13,28 +13,31 @@ class PatientAdminController < ApplicationController
 
     BjondRegistration.all.each do |r|
       ap r
-      rdxc = RedoxConfiguration.find_by_bjond_registration_id(r.id)
-      if (rdxc.nil?)
-        puts "No redox configuration found with registration with id #{r.id}. Skipping..."
-        next
-      elsif (rdxc.sample_person_id.nil?)
-        puts "No person ID found for redox config with id #{rdxc.id}. You can add one as a tenant admin in the Bjond admin settings, on the Integration tab. Skipping..."
-      else
-        puts "Found redox configuration #{rdxc.id} with registration #{r.id}. Using sample person #{rdxc.sample_person_id}"
-      end
-      event_data[:bjondPersonId]     = rdxc.sample_person_id
-      event_data[:attendingProvider] = rdxc.sample_person_id
-      puts event_data.to_json
-      puts "firing now!"
+      # rdxc = RedoxConfiguration.find_by_bjond_registration_id(r.id)
+      configs = RedoxConfiguration.where(:bjond_registration_id => r.id)
+      configs.each do |rdxc|
+        if (rdxc.nil?)
+          puts "No redox configuration found with registration with id #{r.id}. Skipping..."
+          next
+        elsif (rdxc.sample_person_id.nil?)
+          puts "No person ID found for redox config with id #{rdxc.id}. You can add one as a tenant admin in the Bjond admin settings, on the Integration tab. Skipping..."
+        else
+          puts "Found redox configuration #{rdxc.id} with registration #{r.id}. Using sample person #{rdxc.sample_person_id}"
+        end
+        event_data[:bjondPersonId]     = rdxc.sample_person_id
+        event_data[:attendingProvider] = rdxc.sample_person_id
+        puts event_data.to_json
+        puts "firing now!"
 
-      ### Make web requests to Bjond on a separate thread to reduce callback time.
-      Thread.new do 
-        begin
-          BjondApi::fire_event(r, event_data.to_json, config.active_definition.integrationEvent.first.id)
-        rescue StandardError => bang
-          puts "Encountered an error when firing event associated with BjondRegistration with id: "
-          puts r.id
-          puts bang
+        ### Make web requests to Bjond on a separate thread to reduce callback time.
+        Thread.new do
+          begin
+            BjondApi::fire_event_for_group(r, event_data.to_json, config.active_definition.integrationEvent.first.id, rdxc.group_id)
+          rescue StandardError => bang
+            puts "Encountered an error when firing event associated with BjondRegistration with id: "
+            puts r.id
+            puts bang
+          end
         end
       end
     end
