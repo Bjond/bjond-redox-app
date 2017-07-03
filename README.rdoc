@@ -4,6 +4,9 @@
 
 This will serve as the Bjond integration app with the Redox API.
 
+For user level documentation on setting up and firing Redox events, see this documentation page: 
+https://github.com/Bjond/bjond-health/wiki/Firing-Redox-Events.
+
 
 == Development
 
