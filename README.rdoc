@@ -53,3 +53,8 @@ Tests are run using guard, rspec, and capybara.
     guard
 
 - Tests are housed in the spec/ folder. The spec folder has a directory structure that mimics the app folder. Name tests as <rubyFile>_spec.rb. So, if you have a service calld foo.rb, your test will be foo_spec.rb.
+
+
+
+For more information on Ruby Bjond adapters in general, see this document:
+https://github.com/Bjond/bjond-health/wiki/Ruby-Adapters
